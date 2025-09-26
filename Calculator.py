@@ -4,6 +4,12 @@ def Add(a,b):
 def Sub(a,b):
     return a - b
 
+def multipication(a,b):
+    return a * b
+
+
 if __name__ == "__main__":
     print("Add", Add(5,3))
     print("subtract",Sub(5,3))
+    print("Multipication",multipication(5,3))
+    
